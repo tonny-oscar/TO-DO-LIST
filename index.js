@@ -12,3 +12,7 @@ function addTask() {
     document.getElementById("taskList").appendChild(li);
  }
 }
+const input = document.getElementById('button');
+input.addEventListener('click', function() {
+  alert('Adds');
+});
